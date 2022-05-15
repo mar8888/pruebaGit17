@@ -1,0 +1,23 @@
+.main {
+  border: 2px solid black;
+  height: 500px;
+  /*width: 500px;
+  /* Primer paso es usar display flex */
+  display: flex;
+  /* mover los elementos en el eje x u horzontal*/
+  justify-content: space-around;
+  /*mover los elementos en el eje y u de forma vertical */
+  align-items: center;
+}
+
+.secundary {
+  border: 2px red solid;
+  width: 30%;
+  height: 70%;
+}
+
+.terciaria {
+  border: 1px red solid;
+  width: 30%;
+  height: 30%;
+}
